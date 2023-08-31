@@ -17,33 +17,39 @@
           <header class="bg-dark border-dark-subtle border-bottom-1" style="border-bottom: 3px solid rgba(0, 0, 0, 0.055) !important;">
                <nav class=" container navbar  navbar-dark text-bg-dark">
                     <div class="container-fluid">
-                         <div class="collapse navbar-collapse mt-3 row align-items-center mb-4 justify-content-between" id="navbarSupportedContent">
-                              <div class="about col-sm-7">
-                                   <h5 class=" fs-4 fw-bold">About</h5>
-                                   <p class="lead fs-6 text" style="color: lightgray;">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-                              </div>
-                              <div class="contact col-sm-4">
-                                   <h5 class=" fs-4 fw-bold">Contact</h5>
-                                   <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
-                                        <li class="nav-item">
-                                             <a class="nav-link text-light p-0" href="#">Follow on Twitter</a>
-                                        </li>
-                                        <li class="nav-item">
-                                             <a class="nav-link text-light p-0" href="#">Like on Facebook</a>
-                                        </li>
-                                        <li class="nav-item">
-                                             <a class="nav-link text-light p-0" href="mailto:hishamamer@mail.com">Email me</a>
-                                        </li>
-                                   </ul>
-                              </div>
-                         </div>
                          <div class="nav-brand d-flex gap-2 align-items-center ">
                               <i class="fa-light fa-camera navbar-brand m-0"></i>
                               <a class="navbar-brand fw-bold" href="#">Album</a>
                          </div>
-                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark">
                               <span class="navbar-toggler-icon"></span>
                          </button>
+                         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+                              <div class="offcanvas-header pt-0">
+                                   <h5 class="offcanvas-title display-1 lh-base" id="offcanvasNavbarDarkLabel">Menu</h5>
+                                   <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                              </div>
+                              <div class="offcanvas-body ">
+                                   <div class="about mb-5">
+                                        <h5 class=" fs-4 fw-bold" style="line-height: -20px;">About</h5>
+                                        <p class="lead fs-6 text" style="color: lightgray;">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+                                   </div>
+                                   <div class="contact mt-5">
+                                        <h5 class=" fs-4 fw-bold mb-4">Contact</h5>
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+                                             <li class="nav-item">
+                                                  <a class="nav-link text-light p-0" href="#">Follow on Twitter</a>
+                                             </li>
+                                             <li class="nav-item">
+                                                  <a class="nav-link text-light p-0" href="#">Like on Facebook</a>
+                                             </li>
+                                             <li class="nav-item">
+                                                  <a class="nav-link text-light p-0" href="mailto:hishamamer@mail.com">Email me</a>
+                                             </li>
+                                        </ul>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
                </nav>
           </header>

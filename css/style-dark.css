@@ -23,6 +23,11 @@ ul {
     color: white;
 }
 /* End Global Rules */
+@media (max-width: 574px){
+    .offcanvas{
+        width:70% !important;
+    }
+}
 /* Start Album */
 .image{
     overflow: hidden;

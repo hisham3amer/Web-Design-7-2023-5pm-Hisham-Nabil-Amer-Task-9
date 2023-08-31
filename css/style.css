@@ -24,6 +24,9 @@ ul {
 }
 /* End Gloal Rules */
 /* Start Album */
+.card{
+    overflow: hidden;
+}
 .image{
     overflow: hidden;
     position: relative ;
